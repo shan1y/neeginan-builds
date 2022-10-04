@@ -1,0 +1,26 @@
+$font-stack: "Montserrat";
+
+body {
+  font-family: $font-stack;
+}
+
+@font-face {
+  font-family: $font-stack;
+  src: url("../../assets/fonts/Montserrat-Thin.woff") format("woff");
+  src: url("../../assets/fonts/Montserrat-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: $font-stack;
+  src: url("../../assets/fonts/Montserrat-Light.woff") format("woff");
+  src: url("../../assets//fonts/Montserrat-Light.woff2") format("woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: $font-stack;
+  src: url("../../assets/fonts/Montserrat-Regular.woff") format("woff");
+  src: url("../../assets//fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
