@@ -8,7 +8,7 @@ function Hero() {
   return (
     <header className="hero">
       <nav className="nav">
-        <img className="nav__logo" src={logo}></img>
+        <img className="nav__logo" alt="logo" src={logo}></img>
         <div className="nav__links">
           <Link smooth={true} duration={1000} className="nav__link" to="about">
             About
