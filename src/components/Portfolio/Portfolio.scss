@@ -1,0 +1,14 @@
+@use "../../styles/partials/mixins" as *;
+
+.portfolio {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  @include mobile-container;
+  gap: 1rem;
+  &__title {
+  }
+  &__body {
+    font-size: 0.75rem;
+  }
+}

@@ -7,7 +7,6 @@ import Portfolio from "./components/Portfolio/Portfolio";
 function App() {
   return (
     <>
-      <PageHeader />
       <Hero />
       <About />
       <Portfolio />

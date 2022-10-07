@@ -1,0 +1,25 @@
+@use "../partials/fonts" as *;
+@use "../partials/colors" as *;
+
+h1 {
+  font-family: $font-title;
+  font-weight: 400;
+  color: $white;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: $font-title;
+  color: $brand;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: rgb(61, 61, 61);
+  font-weight: 200;
+}
+
+p {
+  font-weight: 200;
+}
